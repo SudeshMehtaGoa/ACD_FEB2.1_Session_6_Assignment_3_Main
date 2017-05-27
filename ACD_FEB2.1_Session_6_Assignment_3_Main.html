@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sum of Numbers 1 till user input</title>
+   </head>
+    <body>
+        <div>
+            <p>Sum of Numbers from 1 till user input</p>
+            <!-- Input max number to sum -->
+            <label id="lblMaxNumber" style ="margin:5px;">Enter Maximum limit Number for sum</label>
+            <input id="txtMaxNumber" type"text" style ="margin:5px;"></input>
+            <br>
+            
+            <!-- onclick event prints sum of numbers in the console & also in the label on html form-->
+            <button onclick="sumOfNumbers()" style ="margin:5px;">Sum Numbers</button>
+            <br>
+            <label id="lblSumOfNumbersUsingForLoop" style ="margin:5px;"></label>
+            <br>
+            <label id="lblSumOfNumbersUsingWhileLoop" style ="margin:5px;"></label>
+        </div>
+
+        <!-- Inserting external JS file after rendering html-->
+        <script type="text/javascript" src="script.js"></script>  
+    </body>
+</html>
+
